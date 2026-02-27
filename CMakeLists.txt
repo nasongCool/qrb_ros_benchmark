@@ -19,6 +19,7 @@ include_directories("${PROJECT_SOURCE_DIR}/include")
 
 # find dependencies
 find_package(ament_cmake_auto REQUIRED)
+find_package(rosbag2_compression REQUIRED)
 ament_auto_find_build_dependencies()
 
 # add qrb_playback_node lib
